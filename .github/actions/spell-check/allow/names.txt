@@ -10,7 +10,6 @@ markdownpreviewhandler
 mousewithoutborders
 mwb
 oobe
-pasteplain
 poweraccent
 powerlauncher
 POWEROCR

@@ -73,6 +73,7 @@
       <ComponentGroupRef Id="MouseWithoutBordersComponentGroup" />
       <ComponentGroupRef Id="EnvironmentVariablesComponentGroup" />
       <ComponentGroupRef Id="CmdNotFoundComponentGroup" />
+      <ComponentGroupRef Id="AdvancedPasteComponentGroup" />
         
       <ComponentGroupRef Id="ResourcesComponentGroup" />
       <ComponentGroupRef Id="WindowsAppSDKComponentGroup" />
