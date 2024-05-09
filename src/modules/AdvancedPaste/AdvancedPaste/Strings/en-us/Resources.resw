@@ -129,13 +129,13 @@
   <data name="OpenAINotConfigured" xml:space="preserve">
     <value>To custom with AI not enabled</value>
   </data>
-  <data name="OpenAIAPIKeyUnauthorized" xml:space="preserve">
+  <data name="OpenAIApiKeyUnauthorized" xml:space="preserve">
     <value>Invalid API key or endpoint</value>
   </data>
-  <data name="OpenAIAPIKeyTooManyRequests" xml:space="preserve">
+  <data name="OpenAIApiKeyTooManyRequests" xml:space="preserve">
     <value>API key quota exceeded</value>
   </data>
-  <data name="OpenAIAPIKeyError" xml:space="preserve">
+  <data name="OpenAIApiKeyError" xml:space="preserve">
     <value>OpenAI request failed with status code: </value>
   </data>
   <data name="ClipboardHistoryButton.Text" xml:space="preserve">

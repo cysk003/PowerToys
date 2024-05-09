@@ -3780,7 +3780,7 @@ Activate by holding the key for the character you want to add an accent to, then
     <value>to paste your clipboard data as Markdown. Note: Clipboard content type has to be HTML.</value>
   </data>
   <data name="Oobe_AdvancedPasteJson_HowToUse.Text" xml:space="preserve">
-    <value>to paste your clipboard data as JSON. Note: Clipboard content data has to conain XML or CSV text.</value>
+    <value>to paste your clipboard data as JSON. Note: Clipboard content data has to contain XML or CSV text.</value>
   </data>
   <data name="Oobe_AdvancedPasteCustom_HowToUse.Text" xml:space="preserve">
     <value>to open AI-powered dialog to enter query and convert your data to any format you need.</value>
@@ -4158,7 +4158,7 @@ Activate by holding the key for the character you want to add an accent to, then
   <data name="AdvancedPaste_EnableAIDialog_LoginIntoText.Text" xml:space="preserve">
     <value>• Login into your</value>
   </data>
-  <data name="AdvancedPaste_EnableAIDialog_OpenAIAPIKeysOverviewText.Text" xml:space="preserve">
+  <data name="AdvancedPaste_EnableAIDialog_OpenAIApiKeysOverviewText.Text" xml:space="preserve">
     <value>OpenAI API keys overview</value>
   </data>
   <data name="AdvancedPaste_EnableAIDialog_CreateNewKeyText.Text" xml:space="preserve">

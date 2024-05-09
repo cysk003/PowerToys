@@ -468,7 +468,7 @@ private:
 public:
     AdvancedPaste()
     {
-        app_name = GET_RESOURCE_STRING(IDS_ADVANCEDPASTE_NAME);
+        app_name = GET_RESOURCE_STRING(IDS_ADVANCED_PASTE_NAME);
         app_key = AdvancedPasteConstants::ModuleKey;
         LoggerHelpers::init_logger(app_key, L"ModuleInterface", "AdvancedPaste");
         m_hShowUIEvent = CreateDefaultEvent(CommonSharedConstants::SHOW_ADVANCED_PASTE_SHARED_EVENT);
@@ -516,7 +516,7 @@ public:
 
         // Create a Settings object.
         PowerToysSettings::Settings settings(hinstance, get_name());
-        settings.set_description(GET_RESOURCE_STRING(IDS_ADVANCEDPASTE_SETTINGS_DESC));
+        settings.set_description(GET_RESOURCE_STRING(IDS_ADVANCED_PASTE_SETTINGS_DESC));
 
         settings.set_overview_link(L"https://aka.ms/PowerToysOverview_AdvancedPaste");
 

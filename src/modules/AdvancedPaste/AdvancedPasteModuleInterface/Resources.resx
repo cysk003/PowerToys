@@ -120,10 +120,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AdvancedPaste_Name" xml:space="preserve">
+  <data name="Advanced_Paste_Name" xml:space="preserve">
     <value>Advanced Paste</value>
   </data>
-  <data name="AdvancedPaste_Settings_Desc" xml:space="preserve">
+  <data name="Advanced_Paste_Settings_Desc" xml:space="preserve">
     <value>An AI powered tool to put your clipboard content into any format you need, focused towards developer workflows.</value>
   </data>
 </root>

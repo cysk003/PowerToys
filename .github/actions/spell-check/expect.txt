@@ -893,6 +893,7 @@ MINIMIZEBOX
 MINIMIZEEND
 MINIMIZESTART
 miniz
+Mip
 Miracast
 mjpg
 mkdn

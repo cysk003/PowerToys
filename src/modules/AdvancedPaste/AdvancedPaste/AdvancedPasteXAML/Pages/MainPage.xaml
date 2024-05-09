@@ -14,7 +14,7 @@
     <Page.Resources>
         <converters:ListViewIndexConverter x:Name="listViewIndexConverter" />
         <Style
-            x:Key="PaddinglessFlyoutPresenterStyle"
+            x:Key="PaddingLessFlyoutPresenterStyle"
             BasedOn="{StaticResource DefaultFlyoutPresenterStyle}"
             TargetType="FlyoutPresenter">
             <Style.Setters>
@@ -79,7 +79,7 @@
                         VerticalAlignment="Center"
                         Style="{StaticResource CaptionTextBlockStyle}"
                         ToolTipService.ToolTip="">
-                        <Run x:Uid="AIFooterSeperator" Foreground="{ThemeResource TextFillColorSecondaryBrush}">|</Run>
+                        <Run x:Uid="AIFooterSeparator" Foreground="{ThemeResource TextFillColorSecondaryBrush}">|</Run>
                     </TextBlock>
                     <TextBlock
                         Margin="0,0,2,0"
@@ -206,7 +206,7 @@
                 </Grid>
                 <Button.Flyout>
                     <Flyout
-                        FlyoutPresenterStyle="{StaticResource PaddinglessFlyoutPresenterStyle}"
+                        FlyoutPresenterStyle="{StaticResource PaddingLessFlyoutPresenterStyle}"
                         Placement="Right"
                         ShouldConstrainToRootBounds="False">
 

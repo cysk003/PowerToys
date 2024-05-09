@@ -169,15 +169,15 @@ namespace AdvancedPaste.ViewModels
                 {
                     if (ApiRequestStatus == (int)HttpStatusCode.TooManyRequests)
                     {
-                        return ResourceLoaderInstance.ResourceLoader.GetString("OpenAIAPIKeyTooManyRequests");
+                        return ResourceLoaderInstance.ResourceLoader.GetString("OpenAIApiKeyTooManyRequests");
                     }
                     else if (ApiRequestStatus == (int)HttpStatusCode.Unauthorized)
                     {
-                        return ResourceLoaderInstance.ResourceLoader.GetString("OpenAIAPIKeyUnauthorized");
+                        return ResourceLoaderInstance.ResourceLoader.GetString("OpenAIApiKeyUnauthorized");
                     }
                     else
                     {
-                        return ResourceLoaderInstance.ResourceLoader.GetString("OpenAIAPIKeyError") + ApiRequestStatus.ToString(CultureInfo.InvariantCulture);
+                        return ResourceLoaderInstance.ResourceLoader.GetString("OpenAIApiKeyError") + ApiRequestStatus.ToString(CultureInfo.InvariantCulture);
                     }
                 }
 
