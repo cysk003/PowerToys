@@ -155,16 +155,23 @@
                         <Run x:Uid="AdvancedPaste_EnableAIDialog_CreateNewKeyText" />
                     </TextBlock>
                 </StackPanel>
-                <StackPanel
-                    Grid.Row="3"
-                    Orientation="Horizontal"
-                    Spacing="8">
+
+                <Grid Grid.Row="3" ColumnSpacing="8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
                     <TextBlock
                         x:Uid="AdvancedPaste_EnableAIDialogOpenAIApiKey"
                         VerticalAlignment="Center"
                         TextWrapping="Wrap" />
-                    <TextBox x:Name="AdvancedPaste_EnableAIDialogOpenAIApiKey" MinWidth="248" />
-                </StackPanel>
+                    <TextBox
+                        x:Name="AdvancedPaste_EnableAIDialogOpenAIApiKey"
+                        Grid.Column="1"
+                        MinWidth="248"
+                        HorizontalAlignment="Stretch"
+                        HorizontalContentAlignment="Stretch" />
+                </Grid>
             </Grid>
         </ContentDialog>
     </Grid>
