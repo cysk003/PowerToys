@@ -305,6 +305,7 @@
                 "MessagePack.Annotations.dll",
                 "MessagePack.dll",
                 "Nerdbank.Streams.dll",
+                "WinUI3Apps\\ReverseMarkdown.dll",
                 "WinUI3Apps\\SharpCompress.dll",
                 "WinUI3Apps\\ZstdSharp.dll",
                 "ColorCode.Core.dll", 
