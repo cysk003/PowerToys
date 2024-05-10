@@ -9,6 +9,21 @@
     xmlns:ui="using:CommunityToolkit.WinUI"
     AutomationProperties.LandmarkType="Main"
     mc:Ignorable="d">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Default">
+                    <ImageSource x:Key="DialogHeaderImage">ms-appx:///Assets/Settings/Modules/APDialog.dark.png</ImageSource>
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="Light">
+                    <ImageSource x:Key="DialogHeaderImage">ms-appx:///Assets/Settings/Modules/APDialog.light.png</ImageSource>
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="HighContrast">
+                    <ImageSource x:Key="DialogHeaderImage">ms-appx:///Assets/Settings/Modules/APDialog.light.png</ImageSource>
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
     <Grid>
         <controls:SettingsPageControl x:Uid="AdvancedPaste" ModuleImageSource="ms-appx:///Assets/Settings/Modules/AdvancedPaste.png">
             <controls:SettingsPageControl.ModuleContent>
@@ -114,10 +129,7 @@
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
-                <Border Margin="-24,-24,-24,0">
-                    <Image Source="ms-appx:///Assets/Settings/Modules/AdvancedPaste_EnableAIDialog.png" />
-                </Border>
-
+                <Image Margin="-24,-24,-24,0" Source="{ThemeResource DialogHeaderImage}" />
                 <TextBlock
                     Grid.Row="1"
                     Foreground="{ThemeResource TextFillColorSecondaryBrush}"
